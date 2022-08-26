@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestSharp.Serializers.Utf8Json</name>
+    </assembly>
+    <members>
+        <member name="M:RestSharp.Serializers.Utf8Json.RestClientExtensions.UseUtf8Json(RestSharp.IRestClient)">
+            <summary>
+            Use Utf8Json serializer with default formatter resolver
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.Serializers.Utf8Json.RestClientExtensions.UseUtf8Json(RestSharp.IRestClient,Utf8Json.IJsonFormatterResolver)">
+            <summary>
+            Use Utf8Json serializer with custom formatter resolver
+            </summary>
+            <param name="client"></param>
+            <param name="resolver">Utf8Json deserialization formatter resolver</param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.Serializers.Utf8Json.RestRequestExtensions.UseUtf8Json(RestSharp.IRestRequest)">
+            <summary>
+            Use Utf8Json serializer for a single request
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestSharp.Serializers.Utf8Json.RestRequestExtensions.UseUtf8Json(RestSharp.IRestRequest,Utf8Json.IJsonFormatterResolver)">
+            <summary>
+            Use Utf8Json serializer for a single request
+            </summary>
+            <param name="request"></param>
+            <param name="resolver">JSON formatter resolver instance to provide custom options to Utf8Json</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
